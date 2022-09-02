@@ -1,0 +1,48 @@
+#workersmain {
+    padding-top: 20px;
+}
+.row {
+  z-index: 0 !important;
+}
+#workersmain h2 {
+    padding-bottom: 10px;
+}
+.react-datetimerange-picker {
+    width: 100% !important;
+    z-index: 1;
+  }
+  @media (max-width:400px) {
+    .react-datetimerange-picker__calendar {
+      max-width: 290px;
+    }
+
+  }
+  .react-datetimerange-picker__wrapper {
+    width: 80% !important;
+    max-width: 300px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0 !important;
+    padding: 20px 10px;
+    border: 1px solid #28364E !important;
+    border-radius: 5px;
+  
+  }
+  @media (max-width: 719px) {
+    .react-datetimerange-picker__wrapper {
+      max-width: 300px !important;
+      margin-right: -20px;
+      margin-top: 0 ;
+      margin: 10px auto !important;
+    }
+    .react-datetimerange-picker__wrapper input,span,p,div {
+      font-size: 0.9rem;
+    }
+  }
+  #plus-span {
+    float: right;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color:green;
+    font-weight: bold;
+  }

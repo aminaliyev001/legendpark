@@ -1,0 +1,23 @@
+#workersmain {
+    padding-top: 20px;
+}
+#workersmain h2 {
+    padding-bottom: 10px;
+}
+tbody tr td i {
+    margin: 0 10px;
+    font-size: 20px;
+    color:#4723D9;
+    cursor: pointer;
+}
+i:hover {
+    transition: .5s;
+    opacity: 0.8;
+}
+#close {
+    float: right;
+    color:red;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
